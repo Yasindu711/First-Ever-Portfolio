@@ -1,0 +1,345 @@
+*{
+	font-family: 'Arsenal', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*The css below is for the navigation menu for the whole website*/
+header{
+	background: #08113d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 16px 32px;
+	display: flex;
+	align-items: center;
+	z-index: 100;
+	width: 100%;
+	justify-content:space-between;
+}
+
+
+.unit{
+	font-family: 'Arsenal', sans-serif ;
+	font-size: 26px;
+	color: white;
+}
+
+
+.navigationbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 2;
+}
+
+.navigationbar a{
+	text-decoration: none;
+	font-size: 23px;
+	color: #00627D;
+	margin-right: 40px;
+	font-weight: 500;
+}
+
+.navigationbar a:hover{
+	color: red;
+}
+
+
+
+
+/*The css below is for the content in the home page it includes the paragraphs and the titles*/
+.myname{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 30px 100px;
+}
+
+body{
+	background:url(images/background.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.mynamecontents{
+	max-width: 400px;
+	color: navy;
+	position: absolute;
+}
+
+.mynamecontents h1{
+	font-size: 80px;
+}
+
+.mynamecontents h1 span{
+	color: #00627D;
+	text-shadow: 20px;
+}
+
+.mynamecontents p{
+	font-size: 20px;
+	padding: 12px 0px 40px 0px;
+}
+
+.button1 a{
+	color: white;
+	text-decoration: none;
+	padding: 12px 38px;
+	background: #00627D;
+	border: 2px solid black;
+	border-radius:14px;
+	font-weight: 500;
+}
+
+/*css for the picture of me in homepage is below*/
+.mypic{
+	float: right;
+	margin-left: 750px;
+}
+
+.mypic:hover{
+	transform: translate(-50px);
+	transition: 3s;
+}
+
+
+
+
+
+
+
+/*The following css below is for the timetable for my page, it gives styles table itself and the head of the table*/
+.table{
+	border-radius: 25px;
+	width: 25em;
+	background-color: skyblue;
+	margin: 200px auto;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.table thead{
+	background-color: #00627D;
+	color: white;
+}
+
+.table td{
+	padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+.moreinfo body{
+	margin: 0;
+	font-family:'Arsenal', sans-serif ;
+}
+
+/*The css below is for the hometown section of the moreinfo page it gives style and positioning to the text and images*/
+.dubai{
+	justify-content: space-between;
+	display: flex;
+	padding: 40px;
+	width: 80%;
+	margin: 10rem auto 0 auto;
+}
+.dubai img{
+	height: 250px;
+	border-radius: 10px;
+}
+
+.dubai h1{
+	margin: 0;
+	color: darkblue;
+}
+
+.dubai p{
+	color: #00627D;
+}
+
+/*The css below is for the achivements section of the moreinfo page it gives style and positioning to the text and images*/
+.achiv{
+	justify-content: space-between;
+	display: flex;
+	padding: 40px;
+	width: 80%;
+	margin: 3rem auto 0 auto;
+}
+.achiv img{
+	height: 350px;
+	border-radius: 10px;
+}
+
+.achiv h1{
+	margin: 0;
+	color: darkblue;
+}
+
+.achiv p{
+	color: #00627D;
+
+}
+
+.achiv h2{
+	margin: 0;
+	color: darkblue;
+}
+
+.achiv ul{
+	color: #00627D;
+}
+
+.achiv li{
+	color: #00627D;
+	margin: 12px;
+}
+
+
+
+
+
+
+
+/*The css below is for the booklist of my book.html page, it includes the styles for items and pics in the list*/
+.booklist{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px auto 0;
+	padding: 0;
+	max-width: 800px;
+	margin-top: 83px;
+}
+
+.listitem {
+	margin: 23px;
+	padding: 20px;
+	border: 2px solid#00627D;
+	border-radius: 10px;
+	text-align: center;
+	width: 220px;
+	box-shadow: 2px 0 10px #ccc;
+}
+
+.bookpic{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+/*The css below is for the movielist of my book.html page, it includes the styles for items and pics in the list*/
+.movielist{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 50px auto 0;
+	padding: 0;
+	max-width: 800px;
+	margin-top: 83px;
+}
+
+.movieitem {
+	margin: 23px;
+	padding: 20px;
+	border: 2px solid#00627D;
+	border-radius: 10px;
+	text-align: center;
+	width: 220px;
+	box-shadow: 2px 0 10px #ccc;
+}
+
+.moviepic{
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+/*The following css below is for my footer for all my pages*/
+footer {
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+footer i {
+	color:#08113d;
+    font-size: 25px;
+    margin: 0 20px;
+}
+
+
+
+
+
+
+
+/*This is the css used for the article tag in my website*/
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  position: relative;
+  top: 110px;
+  border: 3px solid #00627D;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  text-align: justify;
+
+}
+
+/*The css below is for my form tag and all the elements inside it like lable and input*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+label {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  border: 2px solid #00627D;
+  border-radius: 7px;
+  padding: 8px;
+  font-size: 16px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  font-size: 20px;
+  background-color: #00627D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
